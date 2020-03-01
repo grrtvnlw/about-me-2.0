@@ -114,10 +114,10 @@ footer p {
 
 .projects-div div {
     width: 30%;
-    border: 1px solid gray;
     border-radius: 5px;
     text-align: center;
     margin-top: 20px;
+    line-height: 2em;
 }
 
 .projects-div div img {
