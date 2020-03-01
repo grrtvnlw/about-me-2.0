@@ -1,0 +1,181 @@
+body {
+    background: linear-gradient(55deg, hsl(180, 70%, 85%), hsl(271, 70%, 85%));
+    color: #454545;
+    font-family: Courier;
+    height: 100%;
+}
+
+img {
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#first-header {
+    position: sticky;
+    top: 0;
+} 
+
+#second-header {
+    position: sticky;
+    top: 0;
+} 
+
+.secondImg {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+li {
+    padding: 0px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #454545;
+}
+
+a:hover {
+    /* color: hsl(180, 70%, 30%); */
+    color: whitesmoke;
+}
+
+p {
+    padding-left: 15px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+hr {
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-right: auto;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+footer p {
+    padding-left: 0px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* #altLink:hover {
+    color: hsl(271, 70%, 75%);
+} */
+
+.first-section {
+    text-align: center;
+    height: 100vh;
+}
+
+.second-section {
+    height: 100vh;
+}
+
+.align-left {
+    margin-right: auto;
+    align-items: center;
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+.projects-div {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projects-div div {
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.projects-div div img {
+    width: 90%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* html {
+        height: 120%;
+    } */
+    
+    body {
+        height: 100vh;
+    }
+
+    main, footer {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        padding-bottom: 15px;
+        font-size: 2em;
+    }
+
+    p {
+        padding-bottom: 30px;
+        font-size: 2em;
+    }
+
+    footer p {
+        font-size: 2em;
+        margin-top: 30px;
+    }
+
+    li a {
+        font-size: 1.5em;
+    }
+
+    img {
+        border-radius: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .secondImg {
+        width: 65%;
+        height: 65%;
+        border-radius: 5px;
+    }
+
+    #nopadding {
+        padding-bottom: 0px;
+    }
+}
