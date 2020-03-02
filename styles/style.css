@@ -157,6 +157,7 @@ footer p {
         display: flex;
         flex-direction: row;
         height: 30%;
+        width: 60%;
         border-radius: 5px;
         text-align: center;
         margin-top: 20px;
@@ -199,13 +200,13 @@ footer p {
         border-radius: 5px;
         margin-top: 30px;
         margin-bottom: 30px;
-        width: 500px;
-        height: 350px;
+        width: 600px;
+        height: 450px;
     }
 
     .secondImg {
-        width: 375px;
-        height: 375px;
+        width: 450px;
+        height: 450px;
         border-radius: 5px;
     }
 
