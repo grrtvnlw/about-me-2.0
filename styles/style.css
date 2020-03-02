@@ -157,7 +157,7 @@ footer p {
         display: flex;
         flex-direction: row;
         height: 30%;
-        width: 100%;
+        width: 90%;
         border-radius: 5px;
         text-align: center;
         margin-top: 20px;
@@ -165,7 +165,7 @@ footer p {
     }
 
     .projects-div div img {
-        width: 90%;
+        width: 500px;
         margin-top: 20px;
     }
         
@@ -178,7 +178,7 @@ footer p {
     }
 
     h2 {
-        padding-top: 30px;
+        padding-top: 50px;
         font-size: 2em;
     }
 
@@ -200,8 +200,8 @@ footer p {
         border-radius: 5px;
         margin-top: 30px;
         margin-bottom: 30px;
-        width: 700px;
-        height: 550px;
+        width: 650px;
+        height: 500px;
     }
 
     .secondImg {
