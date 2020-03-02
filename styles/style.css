@@ -157,7 +157,7 @@ footer p {
         display: flex;
         flex-direction: row;
         height: 30%;
-        width: 60%;
+        width: 100%;
         border-radius: 5px;
         text-align: center;
         margin-top: 20px;
@@ -200,17 +200,21 @@ footer p {
         border-radius: 5px;
         margin-top: 30px;
         margin-bottom: 30px;
-        width: 600px;
-        height: 450px;
+        width: 700px;
+        height: 550px;
     }
 
     .secondImg {
-        width: 450px;
-        height: 450px;
+        width: 500px;
+        height: 500px;
         border-radius: 5px;
     }
 
     #nopadding {
         padding-bottom: 0px;
     }   
+
+    #first-header {
+        padding-top: 30px;
+    } 
 }
