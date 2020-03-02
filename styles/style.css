@@ -156,7 +156,7 @@ footer p {
     .projects-div div {
         display: flex;
         flex-direction: row;
-        width: 30%;
+        height: 30%;
         border-radius: 5px;
         text-align: center;
         margin-top: 20px;
@@ -199,8 +199,8 @@ footer p {
         border-radius: 5px;
         margin-top: 30px;
         margin-bottom: 30px;
-        width: 70%;
-        height: 50%;
+        width: 500px;
+        height: 350px;
     }
 
     .secondImg {
