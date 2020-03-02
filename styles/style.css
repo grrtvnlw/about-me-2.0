@@ -144,6 +144,7 @@ footer p {
         align-items: center;
         font-size: 2em;
         margin-top: 0px;
+        padding-top: 0px;
     }
 
     .projects-div {
@@ -219,4 +220,12 @@ footer p {
     #first-header {
         padding-top: 30px;
     } 
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
 }
