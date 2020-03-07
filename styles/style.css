@@ -84,10 +84,6 @@ footer p {
     margin-top: 10px;
 }
 
-/* #altLink:hover {
-    color: hsl(271, 70%, 75%);
-} */
-
 .first-section {
     text-align: center;
     height: 100vh;
@@ -131,17 +127,13 @@ footer p {
 }
 
 @media only screen and (max-device-width: 480px) {
-    /* html {
-        height: 120%;
-    } */
-
     .first-section {
         text-align: center;
         height: 100vh;
     }
     
     .second-section {
-        height: 100vh;
+        height: 200vh;
     }
 
     .align-left {
@@ -191,14 +183,8 @@ footer p {
     }
 
     p {
-        /* padding-bottom: 30px; */
         font-size: 2em;
     }
-
-    /* footer p {
-        font-size: 2em;
-        margin-top: 30px;
-    } */
 
     li a {
         font-size: 1.5em;
@@ -254,5 +240,9 @@ footer p {
 
     #pushdown {
         padding-top: 40px;
+    }
+
+    .margin-top {
+        margin-top: 0px;
     }
 }
