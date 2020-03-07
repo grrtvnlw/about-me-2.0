@@ -75,7 +75,7 @@ h1 {
 }
 
 h2 {
-    padding-top: 30px;
+    padding-top: 65px;
 }
 
 footer p {
@@ -124,6 +124,10 @@ footer p {
 .projects-div div img {
     width: 90%;
     margin-top: 0px;
+}
+
+.margin-top {
+    margin-top: 50px;
 }
 
 @media only screen and (max-device-width: 480px) {
