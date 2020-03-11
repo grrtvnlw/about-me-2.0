@@ -1,12 +1,12 @@
 html {
-    height: 110%;
-}
-
-body {
     background: linear-gradient(55deg, hsl(180, 70%, 85%), hsl(271, 70%, 85%));
     color: #454545;
     font-family: Courier;
-}
+} 
+
+/* body {
+    height: 100vh;
+}  */
 
 img {
     width: 500px;
@@ -97,6 +97,7 @@ section {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 0px;
+    height: 210vh;
 }
 
 .projects-div div {
@@ -138,10 +139,6 @@ section {
         
     main {
         text-align: center;
-    }
-
-    h1 {
-        font-size: 2em;
     }
 
     h2 {
@@ -188,6 +185,8 @@ section {
     }
 
     #nav-home {
+        display: flex;
+        flex: 1 0 auto;
         margin-right: auto;
         font-size: 32px;
         font-weight: bold;
