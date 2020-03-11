@@ -1,8 +1,11 @@
+html {
+    height: 110%;
+}
+
 body {
     background: linear-gradient(55deg, hsl(180, 70%, 85%), hsl(271, 70%, 85%));
     color: #454545;
     font-family: Courier;
-    height: 100%;
 }
 
 img {
@@ -16,31 +19,45 @@ img:hover {
     cursor: pointer;
 }
 
-#first-header {
-    position: sticky;
-    top: 0;
-} 
-
-#second-header {
-    position: sticky;
-    top: 0;
-} 
-
 .secondImg {
     width: 375px;
     height: 375px;
     border-radius: 5px;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
 }
 
 ul {
     display: flex;
     flex-direction: row;
-    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+    margin-right: 30px;
 }
 
 li {
     padding: 0px 30px;
+}
+
+#nav-home {
+    margin-right: auto;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h1 {
+    display: flex;
+    font-size: 32px;
+    font-weight: bold;
+    justify-content: flex-start;
+    margin: 0px 0px 0px 0px;
 }
 
 a {
@@ -49,59 +66,32 @@ a {
 }
 
 a:hover {
-    /* color: hsl(180, 70%, 30%); */
+    cursor: pointer;
     color: whitesmoke;
 }
 
-p {
-    padding-left: 15px;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+/* header {
+    position: fixed;
     width: 100%;
-}
-
-hr {
-    margin-top: 0px;
-}
-
-h1 {
-    font-size: 32px;
-    margin-right: auto;
-}
+} */
 
 h2 {
-    padding-top: 65px;
+    padding-top: 45px;
 }
 
-footer p {
-    padding-left: 0px;
-    font-size: 18px;
-    margin-top: 10px;
+.space {
+    padding-top: 45px;
 }
 
-.first-section {
+.space-bottom {
+    padding-bottom: 45px;
+}
+
+section {
     text-align: center;
-    height: 100vh;
-}
-
-.second-section {
-    height: 105vh;
-}
-
-.align-left {
-    margin-right: auto;
-    align-items: center;
-    font-size: 32px;
-    margin-top: 0px;
 }
 
 .projects-div {
-    margin-top: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -113,17 +103,11 @@ footer p {
     width: 27%;
     border-radius: 5px;
     text-align: center;
-    margin-top: 10px;
     line-height: 1.5em;
 }
 
-.projects-div div img {
-    width: 90%;
-    margin-top: 0px;
-}
-
-.margin-top {
-    margin-top: 50px;
+.projects-div img {
+    width: 80%;
 }
 
 @media only screen and (max-device-width: 480px) {
