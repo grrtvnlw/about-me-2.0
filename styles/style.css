@@ -87,6 +87,28 @@ h2 {
     padding-bottom: 45px;
 }
 
+.blog-content {
+    margin: 0 auto;
+    width: 65%;
+    margin-top: 10px;
+}
+
+.blog-content h3 {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.blog-entry {
+    background-color: whitesmoke;
+    color: darkslateblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: left;
+    line-height: 1.5em;
+}
+
 section {
     text-align: center;
 }
@@ -97,7 +119,6 @@ section {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 0px;
-    height: 210vh;
 }
 
 .projects-div div {
@@ -108,7 +129,8 @@ section {
 }
 
 .projects-div img {
-    width: 80%;
+    width: 70%;
+    height: 70%;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -129,6 +151,7 @@ section {
         text-align: center;
         margin-top: 20px;
         line-height: 2em;
+        height: 210vh;
     }
 
     .projects-div div img {
