@@ -111,23 +111,6 @@ section {
 }
 
 @media only screen and (max-device-width: 480px) {
-    .first-section {
-        text-align: center;
-        height: 100vh;
-    }
-    
-    .second-section {
-        height: 210vh;
-    }
-
-    .align-left {
-        margin-right: auto;
-        align-items: center;
-        font-size: 2em;
-        margin-top: 0px;
-        padding-top: 0px;
-    }
-
     .projects-div {
         display: flex;
         flex-direction: column;
@@ -188,45 +171,24 @@ section {
         border-radius: 5px;
     }
 
-    #nopadding {
-        padding-bottom: 0px;
-    }   
-
-    #first-header {
-        padding-top: 70px;
-    } 
-
     nav {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
         width: 100%;
-    }
-
-    nav h2 {
-        padding-top: 20px;
-        padding-bottom: 0px;
     }
 
     ul {
         display: flex;
         flex-direction: row;
-        list-style-type: none;
         align-items: center;
+        justify-content: flex-end;
         flex-wrap: wrap;
-    }
-    
-    .padding {
-        padding: 0px 30px;
-        padding-bottom: 20px;
+        list-style-type: none;
+        width: 100%;
+        margin-right: 30px;
     }
 
-    #pushdown {
-        padding-top: 40px;
+    #nav-home {
+        margin-right: auto;
+        font-size: 32px;
+        font-weight: bold;
     }
-
-    .margin-top {
-        margin-top: 0px;
-    }
-}
