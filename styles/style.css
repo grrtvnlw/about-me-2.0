@@ -164,6 +164,7 @@ section {
 
     .projects-div div p {
         padding-top: 100px;
+        padding-left: 40px;
     }
 
     h2 {
@@ -237,6 +238,10 @@ section {
 
     #contacts, #blog, #homepage {
         height: 100vh;
+    }
+
+    #projects {
+        height: 100%;
     }
 
     #about-me {
