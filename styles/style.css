@@ -163,8 +163,8 @@ section {
     }
 
     .projects-div div p {
-        padding-top: 100px;
-        padding-left: 40px;
+        padding: 30px 30px; 
+        line-height: 2em;
     }
 
     h2 {
