@@ -133,6 +133,10 @@ section {
     height: 70%;
 }
 
+#contacts, #blog {
+    height: 100vh;
+}
+
 @media only screen and (max-device-width: 480px) {
     .projects-div {
         display: flex;
