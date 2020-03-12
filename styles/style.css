@@ -191,6 +191,7 @@ section {
 
     nav {
         display: flex;
+        justify-content: flex-start;
         width: 100%;
     }
 
@@ -202,7 +203,11 @@ section {
         flex-wrap: wrap;
         list-style-type: none;
         width: 100%;
-        margin: 0px;
+        margin: 10px 0px;
+    }
+
+    li {
+        padding: 0px 10px;
     }
 
     .blog-content {
