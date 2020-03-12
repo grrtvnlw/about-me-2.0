@@ -202,7 +202,7 @@ section {
         flex-wrap: wrap;
         list-style-type: none;
         width: 100%;
-        margin-right: 30px;
+        margin: 0px;
     }
 
     .blog-content {
@@ -219,8 +219,6 @@ section {
     }
 
     #nav-home {
-        display: block;
-        margin: 0 auto;
         font-size: 32px;
         font-weight: bold;
     }
