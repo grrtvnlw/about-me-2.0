@@ -198,7 +198,7 @@ section {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         flex-wrap: wrap;
         list-style-type: none;
         width: 100%;
@@ -221,12 +221,16 @@ section {
     #nav-home {
         display: flex;
         flex-direction: column;
-        margin-right: auto;
         font-size: 32px;
         font-weight: bold;
     }
 
     #contacts, #blog, #homepage {
         height: 100vh;
+    }
+
+    #about-me {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
