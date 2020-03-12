@@ -1,1 +1,1 @@
-An updated version of my portfolio page with enhanced features. 
+An updated version of my portfolio page with enhanced features.
