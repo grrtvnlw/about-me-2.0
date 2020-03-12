@@ -133,7 +133,7 @@ section {
     height: 70%;
 }
 
-#contacts, #blog, #homepage {
+#contacts, #blog, #homepage, #projects {
     height: 100vh;
 }
 
@@ -232,6 +232,7 @@ section {
         font-weight: bold;
         padding: 0px;
         margin-left: 0px;
+        margin-right: 0px;
     }
 
     #contacts, #blog, #homepage {
