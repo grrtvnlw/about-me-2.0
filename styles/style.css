@@ -230,6 +230,8 @@ section {
     #nav-home {
         font-size: 32px;
         font-weight: bold;
+        padding: 0px;
+        margin-left: 10px;
     }
 
     #contacts, #blog, #homepage {
