@@ -233,6 +233,11 @@ section {
         margin: 0px;
     }
 
+    .projects-div div p {
+        padding: 5px;
+        margin-top: 10px;
+    }
+
     #nav-home {
         font-size: 32px;
         font-weight: bold;
