@@ -238,7 +238,7 @@ section {
         font-size: 2em;
         text-align: left;
         padding: 0px;
-        margin: 0px;
+        margin-top: 10px;
     }
 
     .projects-div div p {
