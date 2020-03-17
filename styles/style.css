@@ -128,6 +128,11 @@ section {
     line-height: 1.5em;
 }
 
+.projects-div div p {
+    padding: 5px;
+    margin: 0px;
+}
+
 .projects-div img {
     width: 70%;
     height: 70%;
