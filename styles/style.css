@@ -99,7 +99,7 @@ h2 {
     padding-bottom: 0px;
 }
 
-.blog-content h3 {
+h3 {
     text-align: left;
     padding: 0px;
     margin-top: 0px;
@@ -234,11 +234,12 @@ section {
         margin-top: 10px;
     }
     
-    .blog-content h3 {
+    h3 {
         font-size: 2em;
         text-align: left;
         padding: 0px;
         margin-top: 10px;
+        margin-bottom: 0px;
     }
 
     .projects-div div p {
