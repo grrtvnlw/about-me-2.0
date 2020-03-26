@@ -6,6 +6,7 @@ html {
     background: linear-gradient(55deg, hsl(180, 70%, 85%), hsl(271, 70%, 85%));
     color: #454545;
     font-family: Courier;
+    height: 100%;
 } 
 
 body {
