@@ -6,7 +6,6 @@ html {
     background: linear-gradient(55deg, hsl(180, 70%, 85%), hsl(271, 70%, 85%));
     color: #454545;
     font-family: Courier;
-    height: 100%;
 } 
 
 body {
@@ -147,9 +146,9 @@ section {
     height: 70%;
 }
 
-/* #contacts, #blog, #homepage, #projects {
-    height: 100%;
-} */
+#contacts, #blog, #homepage, #projects {
+    height: 100vh;
+}
 
 @media only screen and (max-device-width: 480px) {
     .projects-div {
