@@ -147,7 +147,7 @@ section {
 }
 
 #contacts, #blog, #homepage, #projects {
-    height: 100vh;
+    height: 100%;
 }
 
 @media only screen and (max-device-width: 480px) {
