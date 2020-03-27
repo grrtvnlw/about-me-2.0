@@ -146,11 +146,11 @@ section {
     height: 70%;
 }
 
-#blog, #homepage, #projects {
+#blog, #projects {
     height: 100%;
 }
 
-#contacts {
+#contacts, #homepage {
     height: 100vh;
 }
 
