@@ -56,14 +56,6 @@ li {
     font-weight: bold;
 }
 
-h1 {
-    display: flex;
-    font-size: 32px;
-    font-weight: bold;
-    justify-content: flex-start;
-    margin: 0px 0px 0px 0px;
-}
-
 a {
     text-decoration: none;
     color: #454545;
