@@ -120,12 +120,12 @@ section {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 0px;
-    padding-bottom: 0px;
     margin-top: 10px;
+    padding-bottom: 20px;
 }
 
 .projects-div div {
-    width: 27%;
+    width: 45%;
     border-radius: 5px;
     text-align: center;
     line-height: 1.5em;
@@ -141,7 +141,12 @@ section {
     height: 70%;
 }
 
-#blog, #projects, #homepage {
+.projects-div img:hover {
+    width: 80%;
+    height: 80%;
+}
+
+#blog, #homepage, #projects {
     height: 100%;
 }
 
@@ -275,4 +280,14 @@ section {
         margin-left: 10px;
         margin-right: 10px;
     }
+}
+
+@media only screen and (max-device-width: 800px) {
+    .projects-div div {
+        width: 100%;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
 }
